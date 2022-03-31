@@ -1,0 +1,90 @@
+input{
+    border-radius: 5px;
+    width: 500px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.link{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration-line: none;
+    margin-bottom: 15px;
+}
+.link:hover{
+    color: wheat;
+}
+#lirt{
+    padding-left: 30px;
+}
+.container{ 
+   width: 999px;
+   height: 370px;   
+   background-color: wheat;
+   
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    flex-basis: 1%;
+    background-color: yellowgreen;
+    color: white;
+    
+}
+
+.good{
+    display: flexbox;
+    width: 190px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left:20px ;
+
+    
+}
+.wheat{
+    background-color: white;
+    color: wheat;
+    font-size: 15px;
+    margin-left: 20px;    
+}
+.attr{
+    display: flexbox;
+    background-color:yellow;
+    font-size: 25px;
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    color: tan;
+    background-color: white;
+    font-size: 12px;
+}
+a:hover{
+    color: tomato;
+}
+.img{
+    width: 190px;
+    height: 150px;
+}
+.img:hover{
+    color: blue;
+}
+.list{
+    margin-left: 37px;
+    color: blue;
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+button{
+    margin-top: 15px;
+    margin-left: 40px;
+    color: tan;
+    background-color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 25px;
+}
+
+
