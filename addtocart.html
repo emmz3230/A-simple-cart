@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <div class="hide-div" id="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>product</th>
+                    <th>price</th>
+                </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+        </table>
+        <hr>
+        <table id="carttotals">
+            <tr>
+                <td>items</td>
+                <td>Total</td>
+            </tr>
+            <tr>
+                <td>x <span id="itemsquantity">0</span></td>
+
+                <td>$<span id="total">0</span></td>
+            </tr>
+        </table>
+        <button class="clear">empty cart</button>
+        <button>
+            <a href="cart.html">
+                Back to order list
+            </a>
+        </button>
+    </div>
+</body>
+<script src="cart.js"></script>
+
+</html>
